@@ -1,4 +1,4 @@
-import 'package:cl_musda_hipmi_2024_mobile/models/registration.dart';
+import 'package:cl_pgn_mobile/models/registration.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 

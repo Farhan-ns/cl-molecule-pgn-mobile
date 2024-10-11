@@ -1,4 +1,4 @@
-import 'package:cl_musda_hipmi_2024_mobile/extensions/mediaquery.dart';
+import 'package:cl_pgn_mobile/extensions/mediaquery.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

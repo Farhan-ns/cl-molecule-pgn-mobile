@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:cl_musda_hipmi_2024_mobile/extensions/mediaquery.dart';
-import 'package:cl_musda_hipmi_2024_mobile/network/api.dart';
-import 'package:cl_musda_hipmi_2024_mobile/screens/home_screen.dart';
+import 'package:cl_pgn_mobile/extensions/mediaquery.dart';
+import 'package:cl_pgn_mobile/network/api.dart';
+import 'package:cl_pgn_mobile/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

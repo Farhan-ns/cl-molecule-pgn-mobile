@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:cl_musda_hipmi_2024_mobile/network/http_override.dart';
-import 'package:cl_musda_hipmi_2024_mobile/screens/home_screen.dart';
-import 'package:cl_musda_hipmi_2024_mobile/screens/login_screen.dart';
+import 'package:cl_pgn_mobile/network/http_override.dart';
+import 'package:cl_pgn_mobile/screens/home_screen.dart';
+import 'package:cl_pgn_mobile/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

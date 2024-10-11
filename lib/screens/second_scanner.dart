@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:cl_musda_hipmi_2024_mobile/models/registration.dart';
-import 'package:cl_musda_hipmi_2024_mobile/network/api.dart';
-import 'package:cl_musda_hipmi_2024_mobile/screens/result_screen.dart';
+import 'package:cl_pgn_mobile/models/registration.dart';
+import 'package:cl_pgn_mobile/network/api.dart';
+import 'package:cl_pgn_mobile/screens/result_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 
