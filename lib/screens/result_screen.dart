@@ -34,51 +34,28 @@ class ResultScreen extends StatelessWidget {
                   text: registration.name ?? '-',
                   textColor: const Color(0xff095B96),
                   textWeight: FontWeight.bold,
-                  textSize: 30,
+                  textSize: 28,
                 ),
                 StyledText(
                   text: registration.office ?? '-',
                   textColor: const Color(0xff095B96),
                   textSize: 24,
                 ),
+                const SizedBox(height: 15),
+                StyledText(
+                  text: registration.companyName ?? '-',
+                  textColor: const Color(0xff095B96),
+                  textWeight: FontWeight.w300,
+                  textSize: 30,
+                ),
+                StyledText(
+                  text: registration.companyAddress ?? '-',
+                  textColor: const Color(0xff095B96),
+                  textWeight: FontWeight.w300,
+                  textSize: 28,
+                ),
                 const SizedBox(height: 10),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8),
-                  child: StyledText(
-                    text: registration.membership ?? '',
-                    textColor: Colors.grey,
-                    textWeight: FontWeight.bold,
-                    textSize: 20,
-                  ),
-                ),
-                const SizedBox(height: 5),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8),
-                  child: StyledText(
-                    text: "BPC: ${registration.bpc}",
-                    textColor: Colors.grey,
-                    textWeight: FontWeight.bold,
-                    textSize: 20,
-                  ),
-                ),
-                const SizedBox(height: 20),
-                showImage
-                    ? Row(
-                        children: [
-                          Expanded(
-                            child: CachedNetworkImage(
-                              imageUrl: registration.imageUrl ?? '',
-                              height: MediaQuery.of(context).size.height * 0.3,
-                            ),
-                          ),
-                        ],
-                      )
-                    : const SizedBox.shrink(),
-                // const SizedBox(height: 10),
-                // const Align(
-                //   alignment: Alignment.center,
-                //   child: StyledText(text: 'to'),
-                // ),
+
                 //Event Name
                 // Align(
                 //   alignment: Alignment.center,

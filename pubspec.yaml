@@ -72,13 +72,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/logo-perqara.png
-    - assets/images/logo-perqara-sq.png
+    - assets/images/logo-colored.png
     - assets/images/ic_check.png
-    - assets/images/yorindo.png
-    - assets/images/yorindo-cropped.png
-    - assets/images/yorindo-cropped-v2.png
-    - assets/images/logo-crop.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

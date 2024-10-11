@@ -110,7 +110,7 @@ class _LoginScreenState extends State<LoginScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                "assets/images/logo-crop.png",
+                "assets/images/logo-colored.png",
                 width: context.mediaQuery.size.width * 0.8,
               ),
               // Padding(

@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               SizedBox(height: size.height / 5),
               Image.asset(
-                "assets/images/logo-crop.png",
+                "assets/images/logo-colored.png",
                 width: context.mediaQuery.size.width * 0.6,
               ),
               SizedBox(height: context.mediaQuery.size.height * 0.1),

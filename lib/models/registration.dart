@@ -34,9 +34,7 @@ class Registration {
   final String? additionalInfo;
   final bool? hasSecondScan;
   final dynamic secondScanAt;
-  final String? imageUrl;
-  final String? bpc;
-  final String? membership;
+  final String? willAttend;
 
   Registration({
     this.id,
@@ -63,9 +61,7 @@ class Registration {
     this.additionalInfo,
     this.hasSecondScan,
     this.secondScanAt,
-    this.imageUrl,
-    this.bpc,
-    this.membership,
+    this.willAttend,
   });
 
   factory Registration.fromJson(Map<String, dynamic> json) => Registration(
@@ -97,9 +93,7 @@ class Registration {
         additionalInfo: json["additional_info"],
         hasSecondScan: json["has_second_scan"] == 1 ? true : false,
         secondScanAt: json["second_scan_at"],
-        imageUrl: json["image_url"],
-        bpc: json["bpc"],
-        membership: json["membership"],
+        willAttend: json["will_attend"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -127,8 +121,6 @@ class Registration {
         "additional_info": additionalInfo,
         "has_second_scan": hasSecondScan,
         "second_scan_at": secondScanAt,
-        "image_url": imageUrl,
-        "bpc": bpc,
-        "membership": membership,
+        "will_attend": willAttend,
       };
 }

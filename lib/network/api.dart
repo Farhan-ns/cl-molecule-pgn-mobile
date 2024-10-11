@@ -3,8 +3,8 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Network {
-  // final String _url = '192.168.43.138:8000';
-  final String _url = 'musdaxviihipmijabar.cyberlabs.co.id';
+  final String _url = '192.168.43.138:8000';
+  // final String _url = 'musdaxviihipmijabar.cyberlabs.co.id';
   // final String _url = '192.168.1.35:8000';
 
   _getToken() async {
@@ -14,7 +14,7 @@ class Network {
   }
 
   Future<http.Response> authData(Map data, String apiUrl) async {
-    Uri url = Uri.https(_url, apiUrl);
+    Uri url = Uri.http(_url, apiUrl);
     print(url);
 
     return await http.post(
@@ -33,7 +33,7 @@ class Network {
   }
 
   Future<http.Response> postData(data, apiUrl) async {
-    Uri url = Uri.https(_url, apiUrl);
+    Uri url = Uri.http(_url, apiUrl);
     print(url);
 
     return await http.post(
