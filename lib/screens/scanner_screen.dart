@@ -34,7 +34,7 @@ class _ScannerScreenState extends State<ScannerScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Scan QR Acara 1'),
+        title: const Text('Scan QR - Daftar Ulang'),
       ),
       body: Column(
         children: [

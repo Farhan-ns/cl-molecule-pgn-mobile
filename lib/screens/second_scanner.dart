@@ -34,7 +34,7 @@ class _SecondScannerScreenState extends State<SecondScannerScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Scan QR Acara 2'),
+        title: const Text('Scan QR - Cek Identitas'),
       ),
       body: Column(
         children: [

@@ -151,23 +151,23 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     );
                   },
-                  child: const Text('SCAN QR CODE'),
+                  child: const Text('SCAN QR CODE - Daftar Ulang'),
                 ),
               ),
-              // SizedBox(
-              //   width: size.width,
-              //   child: ElevatedButton(
-              //     onPressed: () {
-              //       Navigator.push(
-              //         context,
-              //         MaterialPageRoute(
-              //           builder: (context) => const SecondScannerScreen(),
-              //         ),
-              //       );
-              //     },
-              //     child: const Text('SCAN QR CODE Acara 2'),
-              //   ),
-              // )
+              SizedBox(
+                width: size.width,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const SecondScannerScreen(),
+                      ),
+                    );
+                  },
+                  child: const Text('SCAN QR CODE - Cek Identitas'),
+                ),
+              )
             ],
           ),
         ),
